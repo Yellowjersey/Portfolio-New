@@ -54,7 +54,7 @@ function App() {
       description: "A comprehensive movie discovery application built with modern React patterns. Features advanced search, filtering, and detailed movie information with a sleek, responsive interface.",
       tech: ["React", "JavaScript", "API Integration", "Responsive Design"],
       github: "https://github.com/Yellowjersey/GetMovies",
-      live: null,
+      live: "https://gbradford-getmovies.netlify.app/",
       gradient: "from-purple-500 to-pink-500"
     },
     {
