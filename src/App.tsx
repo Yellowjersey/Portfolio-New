@@ -57,22 +57,22 @@ function App() {
       live: "https://gbradford-getmovies.netlify.app/",
       gradient: "from-purple-500 to-pink-500"
     },
-    {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with Next.js, featuring user authentication, payment processing, and admin dashboard. Optimized for performance and SEO.",
-      tech: ["Next.js", "TypeScript", "Stripe", "Prisma", "PostgreSQL"],
-      github: "#",
-      live: "#",
-      gradient: "from-blue-500 to-cyan-500"
-    },
-    {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features. Built with modern React patterns.",
-      tech: ["React", "TypeScript", "Socket.io", "Node.js", "MongoDB"],
-      github: "#",
-      live: "#",
-      gradient: "from-green-500 to-teal-500"
-    }
+    // {
+    //   title: "E-Commerce Platform",
+    //   description: "Full-stack e-commerce solution with Next.js, featuring user authentication, payment processing, and admin dashboard. Optimized for performance and SEO.",
+    //   tech: ["Next.js", "TypeScript", "Stripe", "Prisma", "PostgreSQL"],
+    //   github: "#",
+    //   live: "#",
+    //   gradient: "from-blue-500 to-cyan-500"
+    // },
+    // {
+    //   title: "Task Management App",
+    //   description: "Collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features. Built with modern React patterns.",
+    //   tech: ["React", "TypeScript", "Socket.io", "Node.js", "MongoDB"],
+    //   github: "#",
+    //   live: "#",
+    //   gradient: "from-green-500 to-teal-500"
+    // }
   ];
 
   const skills = [
