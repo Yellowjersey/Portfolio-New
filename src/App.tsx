@@ -50,7 +50,7 @@ function App() {
 
   const projects = [
     {
-      title: "Pokelyzer",
+      title: "Pokelyzer (API takes about a minute to spin up if cold)",
       description: "A custom API driven service that scrapes historical data of pokemon cards and uses Facebook's Prophet to predict a 6 month timeline of how the prices are going to move. This data is also used to give suggestions of actions to take with passed cards.",
       tech: ["Python, Pydantic, FastAPI, Supabase,"],
       github: "https://github.com/Yellowjersey/Pokelyzer",
