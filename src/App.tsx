@@ -233,7 +233,7 @@ const skills = [
             </div>
           </div>
 
-          {/* Skills */}
+          {/* Skills
           <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
             <h3 className="text-3xl font-bold text-white mb-8 text-center">Technical Skills</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -255,7 +255,7 @@ const skills = [
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
