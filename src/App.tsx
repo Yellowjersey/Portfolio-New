@@ -133,10 +133,10 @@ const skills = [
                 </span>
               </h1>
               <h2 className="text-2xl lg:text-3xl text-white/90 mb-6 font-light">
-                Python Developer | Automation & Security Engineering
+                Python Data Analyst | Forecasting · ETL Pipelines · Web Scraping
               </h2>
               <p className="text-lg text-white/70 mb-8 leading-relaxed">
-                I specialize in building Python-based microservices, APIs, automation tools, and data pipelines — combining practical software engineering with real-world security insights.
+                I'm a Python Data Analyst with a passion for building real-world data tools. From scraping online marketplaces to modeling trends with Prophet, I love turning raw data into actionable insights.
               </p>
 
               <div className="flex flex-wrap gap-4">
@@ -233,7 +233,7 @@ const skills = [
             </div>
           </div>
 
-          {/* Skills */}
+          {/* Skills
           <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
             <h3 className="text-3xl font-bold text-white mb-8 text-center">Technical Skills</h3>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -255,7 +255,7 @@ const skills = [
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
