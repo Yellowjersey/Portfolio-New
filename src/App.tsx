@@ -50,6 +50,14 @@ function App() {
 
   const projects = [
     {
+      title: "Pokelyzer",
+      description: "A custom API driven service that scrapes historical data of pokemon cards and uses Facebook's Prophet to predict a 6 month timeline of how the prices are going to move. This data is also used to give suggestions of actions to take with passed cards.",
+      tech: ["Python, Pydantic, FastAPI, Supabase,"],
+      github: "https://github.com/Yellowjersey/Pokelyzer",
+      live: "https://gbradford-getmovies.netlify.app/",
+      gradient: "from-purple-500 to-pink-500"
+    },
+    {
       title: "GetMovies",
       description: "A comprehensive movie discovery application built with modern React patterns. Features advanced search, filtering, and detailed movie information with a sleek, responsive interface.",
       tech: ["React", "JavaScript", "API Integration", "Responsive Design"],
@@ -75,14 +83,15 @@ function App() {
     // }
   ];
 
-  const skills = [
-    { name: "React", level: 95, icon: <Code className="w-5 h-5" /> },
-    { name: "Next.js", level: 90, icon: <Rocket className="w-5 h-5" /> },
-    { name: "TypeScript", level: 85, icon: <Zap className="w-5 h-5" /> },
-    { name: "JavaScript", level: 95, icon: <Star className="w-5 h-5" /> },
-    { name: "Tailwind CSS", level: 90, icon: <Code className="w-5 h-5" /> },
-    { name: "Node.js", level: 80, icon: <Briefcase className="w-5 h-5" /> }
-  ];
+const skills = [
+  { name: "Python", level: 95, icon: <Code className="w-5 h-5" /> },
+  { name: "FastAPI", level: 90, icon: <Rocket className="w-5 h-5" /> },
+  { name: "Pandas/Prophet", level: 85, icon: <Zap className="w-5 h-5" /> },
+  { name: "Data Scraping", level: 90, icon: <Star className="w-5 h-5" /> },
+  { name: "Automation", level: 90, icon: <Shield className="w-5 h-5" /> },
+  { name: "Security Engineering", level: 85, icon: <Briefcase className="w-5 h-5" /> },
+];
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
@@ -124,12 +133,12 @@ function App() {
                 </span>
               </h1>
               <h2 className="text-2xl lg:text-3xl text-white/90 mb-6 font-light">
-                React & Next.js Developer
+                Python Developer | Automation & Security Engineering
               </h2>
               <p className="text-lg text-white/70 mb-8 leading-relaxed">
-                Passionate full-stack developer specializing in modern React applications. 
-                I create exceptional user experiences with clean, efficient code and cutting-edge technologies.
+                I specialize in building Python-based microservices, APIs, automation tools, and data pipelines — combining practical software engineering with real-world security insights.
               </p>
+
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={() => scrollToSection('projects')}
@@ -170,9 +179,10 @@ function App() {
               About Me
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              A dedicated developer with a unique blend of software engineering expertise and cybersecurity knowledge, 
-              focused on creating secure, scalable React applications.
+              A dedicated Python developer and security engineer focused on creating robust, secure, and efficient backend services.
+              I leverage Python for automation, data scraping, forecasting, and security tooling — connecting my software engineering skills with my security background.
             </p>
+
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8 mb-16">
@@ -199,11 +209,12 @@ function App() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">Expertise</h3>
               <div className="space-y-2">
-                <p className="text-white/70">• Modern React Development</p>
-                <p className="text-white/70">• Next.js Applications</p>
-                <p className="text-white/70">• TypeScript Integration</p>
-                <p className="text-white/70">• Responsive Design</p>
-                <p className="text-white/70">• API Development</p>
+              <p className="text-white/70">• Python Automation & Tooling</p>
+              <p className="text-white/70">• API Development (FastAPI, Flask)</p>
+              <p className="text-white/70">• Data Scraping & Pipelines</p>
+              <p className="text-white/70">• Security Automation</p>
+              <p className="text-white/70">• Cloud-Connected Workflows</p>
+
               </div>
             </div>
 
@@ -256,8 +267,9 @@ function App() {
               Featured Projects
             </h2>
             <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              A showcase of my recent work, demonstrating expertise in React, Next.js, and modern web development practices.
+              A showcase of my recent Python work, highlighting automation, data scraping, secure API design, and real-world prediction services.
             </p>
+
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8">
@@ -320,10 +332,10 @@ function App() {
             <h2 className="text-4xl lg:text-5xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
               Let's Work Together
             </h2>
-            <p className="text-xl text-white/70 max-w-3xl mx-auto">
-              Ready to bring your next project to life? I'm always excited to discuss new opportunities 
-              and collaborate on innovative React applications.
+            <p className="text-white/70 mb-6">
+              Currently seeking new opportunities as a Python developer — let’s connect and discuss how I can bring robust automation and backend expertise to your team.
             </p>
+
           </div>
 
           <div className="max-w-4xl mx-auto">
